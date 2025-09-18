@@ -1,4 +1,4 @@
-require_relative './student'
+require_relative "student"
 class ChattyStudent < Student
   def hello
     super
@@ -6,6 +6,6 @@ class ChattyStudent < Student
   end
 
   def raise_hand
-    10.times {|_| super}
+    10.times { |_| super }
   end
 end
